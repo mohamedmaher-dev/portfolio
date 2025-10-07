@@ -5,10 +5,10 @@ const portfolioData = {
     // Personal Information
     personal: {
         name: "Mohamed A. Maher",
-        title: "Mobile App Developer",
+        title: "Mobile Developer",
         email: "mohamedmaher.personal@gmail.com",
         phone: "+20 106 502 7589",
-        location: "Egypt",
+        location: "Mansoura, Egypt",
         profileImage: "assets/profile.jpg", // Add your profile image to assets folder
 
         // Social Links
@@ -22,40 +22,33 @@ const portfolioData = {
 
     // About Section
     about: {
-        summary: "Passionate Mobile App Developer with expertise in Flutter and native Android development. I create innovative, user-friendly mobile applications with a focus on performance and exceptional user experience. Experienced in working with various technologies and delivering high-quality solutions.",
+        summary: "Mobile Developer with 3 years of freelance experience specializing in cross-platform app development using Flutter. Proven ability to build and deploy high-quality applications for both Android and iOS, focusing on performance, clean architecture, and excellent user experience.",
+
+        stats: [
+            { value: "3+", label: "Years Experience" },
+            { value: "20+", label: "Projects Completed" },
+            { value: "15+", label: "Happy Clients" }
+        ],
 
         // Skills organized by category
         skills: {
-            "Mobile Development": [
-                "Flutter", "Dart", "Android Studio", "Firebase",
-                "REST APIs", "State Management", "UI/UX Design"
-            ],
-            "Programming Languages": [
-                "Dart", "Java", "JavaScript", "Python", "C++"
-            ],
-            "Tools & Technologies": [
-                "Git", "GitHub", "VS Code", "Figma",
-                "Adobe XD", "Postman", "SQLite"
-            ],
-            "Other Skills": [
-                "Problem Solving", "Team Collaboration",
-                "Project Management", "Agile Development"
-            ]
+            "Core Development": ["Flutter", "Dart", "BloC", "Cubit", "Provider", "Riverpod", "Responsive UI"],
+            "Services & APIs": ["Firebase", "Supabase", "REST APIs", "Dio", "Retrofit", "Push Notifications"],
+            "Architecture & Patterns": ["Clean Architecture", "MVVM", "MVC", "SOLID", "OOP"],
+            "Tools & Infrastructure": ["Git", "GitHub", "CI/CD", "Fastlane", "VS Code", "Android Studio", "Hive", "SQLite"]
         }
     },
 
     // Experience Section
     experience: [
         {
-            title: "Freelance Mobile App Developer",
-            company: "Mostaql Platform",
-            period: "2020 - Present",
-            location: "Remote",
+            title: "Mobile Developer, Freelancer",
+            company: "Mostaql, Kafiil and others",
+            period: "2023 - Present",
+            location: "Egypt",
             description: [
-                "Developed multiple mobile applications for various clients",
-                "Specialized in Flutter cross-platform development",
-                "Maintained high client satisfaction ratings",
-                "Delivered projects on time and within budget"
+                "Completed +20 projects with a 5 star rating and +15 client, delivering scalable, high-performance mobile applications.",
+                "Specialized in end-to-end development, agile collaboration, and creating polished user experiences that consistently exceed client expectations."
             ],
             link: "https://mostaql.com/u/mmaher_gd"
         }
@@ -64,57 +57,53 @@ const portfolioData = {
     // Education Section
     education: [
         {
-            degree: "Bachelor's Degree",
-            field: "Computer Science / Software Engineering",
-            institution: "University Name", // Update with your actual university
-            period: "2018 - 2022", // Update with your actual dates
-            description: "Focused on software development, mobile technologies, and computer science fundamentals."
+            degree: "Bachelor of Science",
+            field: "Computer Science",
+            institution: "Mansoura University",
+            period: "2021 - 2026",
+            description: "Completed a Bachelor's degree in Science from Mansoura University."
         }
     ],
 
     // Projects Section
     projects: [
         {
-            title: "Al Alamia Admin App",
-            description: "Administrative mobile application for Al Alamia organization with comprehensive management features.",
-            technologies: ["Flutter", "Firebase", "REST API"],
-            image: "assets/project1.jpg", // Add project images to assets folder
-            links: {
-                playstore: "https://play.google.com/store/apps/details?id=com.alalamia.admin",
-                demo: null,
-                github: null
-            },
+            title: "Alalamia Admin",
+            description: "Admin app for Alalamia Spices with features like order management, statistics, and notifications.",
+            technologies: ["Flutter", "MVVM", "Firebase", "Retrofit", "Hive"],
+            image: "assets/default-project.svg",
+            links: { playstore: null, demo: null, github: null },
             featured: true
         },
         {
-            title: "Bari Al Shamal App",
-            description: "Mobile application for Bari Al Shamal with user-friendly interface and modern design.",
-            technologies: ["Flutter", "Dart", "Firebase"],
-            image: "assets/project2.jpg",
-            links: {
-                apkpure: "https://apkpure.net/ar/%D8%A8%D8%B1%D9%8A-%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84/com.bariyalshamal.maher",
-                demo: null,
-                github: null
-            },
+            title: "Commuter (Driver - Client)",
+            description: "A ride-sharing app with features like scheduling, chat, transactions, and location tracking.",
+            technologies: ["Flutter", "BLoC", "MVVM", "Go Router", "Socket.io"],
+            image: "assets/default-project.svg",
+            links: { apkpure: null, demo: null, github: null },
             featured: true
         },
         {
-            title: "Flutter Projects Collection",
-            description: "A collection of various Flutter projects showcasing different features and implementations.",
-            technologies: ["Flutter", "Dart", "Various APIs"],
-            image: "assets/project3.jpg",
-            links: {
-                drive: "https://drive.google.com/drive/folders/10XCPKI2znTyu6mTINaYqrZMrOG1XurYU",
-                demo: null,
-                github: null
-            },
+            title: "Bariy Alshamal (Admin - Store)",
+            description: "E-commerce app for Bariy Alshamal with product and order management, user profiles, and notifications.",
+            technologies: ["Flutter", "BLoC", "MVC", "Firebase"],
+            image: "assets/default-project.svg",
+            links: { drive: null, demo: null, github: null },
             featured: false
         },
         {
+            title: "Mahatati",
+            description: "App for car management, including adding, updating, and QR code scanning.",
+            technologies: ["Flutter", "BLoC", "MVC", "Dio"],
+            image: "assets/default-project.svg",
+            links: { github: null, demo: null, playstore: null },
+            featured: true
+        },
+        {
             title: "BRISC Detector",
-            description: "Advanced detection system built with modern technologies for enhanced security and monitoring.",
-            technologies: ["Python", "Machine Learning", "Computer Vision"],
-            image: "assets/project4.jpg",
+            description: "A personal project for image detection using modern animations and image processing.",
+            technologies: ["Flutter", "Dart", "MVC", "TFLite"],
+            image: "assets/default-project.svg",
             links: {
                 github: "https://github.com/mohamedmaher-dev/brisc_detector",
                 demo: null,

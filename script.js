@@ -179,6 +179,17 @@ function loadAboutSection() {
         aboutSummary.textContent = about.summary;
     }
 
+    // Load stats
+    const statsContainer = document.getElementById('about-stats');
+    if (statsContainer && about.stats) {
+        statsContainer.innerHTML = about.stats.map(stat => `
+            <div class="stat-item">
+                <h3 class="stat-number">${stat.value}</h3>
+                <p class="stat-label">${stat.label}</p>
+            </div>
+        `).join('');
+    }
+
     // Load skills
     const skillsContainer = document.getElementById('skills-container');
     if (skillsContainer) {

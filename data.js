@@ -126,11 +126,6 @@ const portfolioData = {
             icon: "🔄"
         },
         {
-            title: "UI/UX Design",
-            description: "User-centered design approach to create intuitive and engaging mobile interfaces.",
-            icon: "🎨"
-        },
-        {
             title: "App Maintenance",
             description: "Ongoing support, updates, and maintenance for existing mobile applications.",
             icon: "🔧"

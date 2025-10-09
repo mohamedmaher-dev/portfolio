@@ -192,7 +192,7 @@ const portfolioData = {
         seo: {
             title: "Mohamed A. Maher - Mobile App Developer",
             description: "Professional Mobile App Developer specializing in Flutter and Android development. Creating innovative mobile solutions with exceptional user experience.",
-            keywords: "mobile app developer, flutter developer, android developer, mobile development, app development, egypt developer"
+            keywords: "mobile app developer, flutter developer, android developer, mobile development, app development, egypt developer, mohamed, maher, mohamed maher, flutter, mobile, developer, mobile developer"
         },
 
         // Animation settings

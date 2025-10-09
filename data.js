@@ -10,7 +10,7 @@ const portfolioData = {
         phone: "+20 106 502 7589",
         location: "Mansoura, Egypt",
         profileImage: "assets/profile.jpg", // Add your profile image to assets folder
-
+        cv: "assets/Mohamed_A_Maher_CV.pdf", // Add your CV to assets folder
         // Social Links
         social: {
             github: "https://github.com/mohamedmaher-dev",

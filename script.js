@@ -128,6 +128,11 @@ function loadPersonalInfo() {
         profileImage.alt = personal.name;
     }
 
+    const cvBtn = document.getElementById('cv-download-btn');
+    if (cvBtn) {
+        cvBtn.href = personal.cv;
+    }
+
     // Load social links
     loadSocialLinks();
 
